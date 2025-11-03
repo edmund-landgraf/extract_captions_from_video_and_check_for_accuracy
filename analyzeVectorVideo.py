@@ -21,7 +21,7 @@ MAX_CHARS = 120_000      # ✅ safe for large transcripts (~40–45 pages of tex
 TEMPERATURE = 0.4
 
 # Initialize new-style OpenAI client
-client = OpenAI(api_key=os.getenv("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"))
+client = OpenAI(api_key=os.getenv("OPEN_API_KEY"))
 
 # ===============================================================
 # 1️⃣ Verify input file
@@ -99,3 +99,4 @@ try:
 
 except Exception as e:
     print(f"⚠️ GPT-4 analysis failed: {e}")
+
