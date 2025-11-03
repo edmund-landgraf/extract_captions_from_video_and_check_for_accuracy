@@ -1,3 +1,5 @@
+(openAI key was accidentally committed and is now deleted)
+
 # 🎬 VectorDB Video Transcription & Analysis Suite  
 *Comprehensive Documentation & Commentary (2025 Edition)*
 
